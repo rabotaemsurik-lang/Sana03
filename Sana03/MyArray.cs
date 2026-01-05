@@ -29,7 +29,7 @@ namespace Sana03
             }
             return min;
         }
-        public int MaxIndextOfArray() {
+        public int MaxIndexOfArray() {
             int max = 0;
             for (int i = 1; i < array.Length; i++) {
                 if (array[i] >  array[max]) max = i;
@@ -45,16 +45,16 @@ namespace Sana03
             }
             return max;
         }
-        public double SumIndexOfPositiveElements()
+        public int SumIndexOfPositiveElements()
         {
-            double sum = 0;
+            int sum = 0;
             for(int i = 0; i < array.Length; i++)
             {
                 if (array[i] > 0) sum += i;
             }
             return sum;
         }
-        public int IntegerNumnersInArray() {
+        public int IntegerNumbersInArray() {
             int amount = 0;
             for(int i = 0; i < array.Length; i++)
             {
